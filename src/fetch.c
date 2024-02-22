@@ -444,6 +444,16 @@ void *os()
 			info.col7 = BBLUE "  \\______/  ";
 			info.col8 = BBLUE "";
 			info.getPkgCount = "dpkg -l | tail -n+6 | wc -l";
+		} else if (strncmp(osname, "CachyOS Linux", 13) == 0) {
+			info.col1 = BGREEN "              \n";
+			info.col2 = BGREEN "   (\\___/)    ";
+			info.col3 = BGREEN "   /o\\ /o\\    ";
+			info.col4 = BGREEN "   \\__V__/    ";
+			info.col5 = BGREEN "  /|;, ,;|\\   ";
+			info.col6 = BGREEN "  \\\\;;;;;//   ";
+			info.col7 = BGREEN " --`\"\" \"\"`--  ";
+			info.col8 = BGREEN " ^~^^~~^^^~^  \n";
+			info.getPkgCount = "pacman -Qq | wc -l";
 		}
 	} else if (strncmp(sysInfo.sysname, "Darwin", 6) == 0) {
 		info.col1 = "" BYELLOW;
