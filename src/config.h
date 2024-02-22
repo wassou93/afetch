@@ -13,12 +13,12 @@
 /* See options in colour.h file */
 #define TextColour WHITE
 
-#define PrintColours    false /* must be either 'true' or 'false' */
-#define ColourCharacter "● "
+#define PrintColours    true /* must be either 'true' or 'false' */
+#define ColourCharacter "▏▋█"
 
 /* Some examples of things you may want to use for your ColourCharacter
 
-          ▀ ▁ ▂ ▃ ▄ ▅ ▆ ▇ █ ▉ ▊ ▋ ▌ ▍ ▎ ▏
+          ▀ ▁ ▂ ▃ ▄ ▅ ▆ ▇  ▉ ▊ ▋ ▌ ▍ ▎ ▏
 
           █ ▄ ▀ ●
  */
