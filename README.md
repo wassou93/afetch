@@ -36,6 +36,7 @@ afetch is written in C99, meaning that it should be able to be compiled with alm
 *  Gentoo
 *  MacOS (homebrew)
 *  Manjaro
+*  Cachy OS
 *  Mint
 *  NetBSD
 *  NixOS
